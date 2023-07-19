@@ -8,8 +8,13 @@
 <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 
 </head>
-<body>
-
+<body id=un>
+<h3>{{n}}<h3>
+{%if n in ff:%}
+	<h3>:True</h3>
+{%else:%}
+	<h3>:False</h3>
+{%endif%}
 
 
 </body>
